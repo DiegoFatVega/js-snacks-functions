@@ -4,7 +4,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 
 // Dichiara la funzione qui.
- Array_di_iniziali = [];
+let Array_di_iniziali = [];
 
 function prendi_iniziali (array){
     for(let i = 0; i < names.length; i ++){
