@@ -8,12 +8,8 @@ let NewArray = [];
 function filter(array, letter){
     for(let i = 0; i < names.length; i ++){
         const name = names [i];
-        for(let j = 0; j < names.length; j ++){
-            const char = names [j];
-            if(char.toUpperCase === letter.toUpperCase){
-                NewArray.push(name)
-                break;
-            }
+        if(name[0].toUpperCase() === letter.toUpperCase()){
+            NewArray.push(name);
         }
     }
     return NewArray;
